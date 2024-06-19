@@ -23,7 +23,7 @@ public class CalculatorApp {
         System.out.println("Enter second number:");
         int b = scanner.nextInt();
 
-        int result = 0;
+        int result;
         switch (choice) {
             case 1:
                 result = calculator.add(a, b);
@@ -35,6 +35,7 @@ public class CalculatorApp {
                 System.out.println("Invalid choice");
                 return;
         }
+
 
         System.out.println("The result is: " + result);
     }
